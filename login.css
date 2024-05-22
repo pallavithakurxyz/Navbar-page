@@ -1,0 +1,84 @@
+body {
+    background-image: url(background4.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+  }
+  
+  .login-box {
+    width: 350px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeIn 1.5s;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .login-box h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #0072ff;
+  }
+  
+  .textbox {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .textbox input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #0072ff;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .textbox i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #0072ff;
+    font-size: 18px;
+  }
+  
+  .btn {
+    width: 100%;
+    background: #0072ff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #005bb5;
+  }
+  
+  a {
+    display: block;
+    margin-top: 20px;
+    color: #0072ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

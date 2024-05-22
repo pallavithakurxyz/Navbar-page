@@ -1,0 +1,142 @@
+body{
+    background-image: url(tourist.jpg);
+    background-size: cover;
+}
+nav {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  
+  
+}
+nav ul  {
+  display: inline;
+  
+}
+
+nav ul  a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul  a:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  list-style: none;
+}
+.head1{
+margin-left: 10px;
+margin-right: 90px;
+color: #333;
+font-size: 18px;
+            
+}
+#head{
+    color: #008080;
+    text-transform: capitalize;
+    height: 20px;
+    margin-right: 570px;
+    font-size: 50px;
+    margin-left: 50px;
+    position: relative;
+    
+    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-menu {
+    position: absolute;
+    top: 47px;
+    right: 10px;
+    margin-right: 10px;
+}
+
+.profile-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.profile-menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    right: 0;
+}
+
+.profile-menu:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content .dropdown-item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content .dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+p {
+    position: relative;
+    text-align: center;
+    margin-top: 240px;
+    font-size: 50px;
+    
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px; 
+}
+
+.search-box {
+    display: inline-flex;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+.search-box input[type="text"],
+.search-box input[type="date"] {
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.search-box input[type="text"]::placeholder {
+    color: #999;
+}
+
+.search-box input[type="text"]:last-child {
+    background-color: #f39c12;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.search-box input[type="text"]:last-child:hover {
+    background-color: #d9820b;
+}
